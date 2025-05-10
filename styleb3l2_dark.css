@@ -51,11 +51,10 @@
 .div2_2{
     align-items: center;
     justify-content: center;
-    padding: 5px;
+    padding-top: 3px;
     border-radius: 10px;
-    box-shadow:  #ffffff 0px 0px 10px 0px;
-    background-color: #ffffff;
-
+    box-shadow:  #04002b 0px 0px 10px 0px;
+    border-radius: 50%;
 }
 .div3{
     display: flex;

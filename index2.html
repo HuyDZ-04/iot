@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html> <!-- thẻ mở -->
+    <head> <!-- gồm thông tin mô tả trang web -->
+       <title>Device</title>
+       <meta charset="UTF-8">
+       <meta name="description" content="Free Web tutorials">
+       <meta name="keywords" content="Digital Art, Web design, HuyDz">
+       <meta name="author" content="HuyDz">
+       <meta name="viewport" content="width=device-width, initial-scale=1.0">
+       <link rel="stylesheet" type="text/css" href="style2.css">
+       <link rel="stylesheet" type="text/css" href="sw2.css">
+       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    </head>
+
+    <body>
+        <div class="container">
+            <div class="devices">
+                <div class="dev">
+                    <label class="switch" >
+                        <input id="tv" type="checkbox">
+                        <span class="slider round"></span>
+                    </label>
+                    <p><i class="fa-solid fa-tv"></i><br></p>
+                    <p><span>SMART TV </span><br></p>
+                    <p>LG 50" UN81 4K</p>
+                </div>
+                <div class="dev">
+                    <label  class="switch">
+                        <input id="router" type="checkbox">
+                        <span class="slider round"></span>
+                    </label>
+                    <p><i class="fa-solid fa-wifi"></i><br></p>
+                    <p><span>ROUTER </span><br></p>
+                    <p>TP-Link Archer C60 AC</p>
+                </div>
+                <div class="dev">
+                    <label  class="switch">
+                        <input id="air" type="checkbox">
+                        <span class="slider round"></span>
+                    </label>
+                    <p><i class="fa-solid fa-temperature-three-quarters"></i><br></p>
+                    <p><span>Air Conditioner</span> <br></p>
+                    <p>Samsung AR35 A++</p>
+                </div>
+                <div class="dev">
+                    <label  class="switch">
+                        <input id="speaker" type="checkbox">
+                        <span class="slider round"></span>
+                    </label>
+                    <p><i class="fa-solid fa-volume-high"></i><br></p>
+                    <p><span>Speaker </span><br></p>
+                    <p>Samsung Q800T 3.1.2ch</p>
+                </div>
+                <div class="dev">
+                    <label  class="switch">
+                        <input id="light" type="checkbox">
+                        <span class="slider round"></span>
+                    </label>
+                    <p><i class="fa-solid fa-lightbulb"></i><br></p>
+                    <p><span>Sportlights </span><br></p>
+                    <p>Phillips Hue</p>
+                </div>
+                <div class="dev">
+                    <label class="switch">
+                        <input id="alarm" type="checkbox">
+                        <span class="slider round"></span>
+                    </label>
+                    <p><i class="fa-solid fa-bell"></i><br></p>
+                    <p><span>Alarm</span><br></p>
+                    <p>Frontpoint HomeAlarm</p>
+                </div>
+            </div>
+            <div class="div5">
+                <div class="div5_1">
+                    <i class="fa-solid fa-house"></i>
+                </div>
+                <div class="div5_2">
+                    <a href="./main.html">
+                        <i class="fa-solid fa-arrow-left"></i>
+                    </a>    
+                </div>
+                <div class="div5_3">
+                    <i class="fa-solid fa-gear"></i>
+                </div>
+                <div class="div5_4">
+                    <i class="fa-solid fa-user"></i>
+                </div>
+            </div>
+        </div>
+        <script src="https://www.gstatic.com/firebasejs/8.2.9/firebase-app.js"></script>   
+        <script src="https://www.gstatic.com/firebasejs/8.2.9/firebase-database.js"></script>
+        <script src="./control.js"> </script>
+    </body>

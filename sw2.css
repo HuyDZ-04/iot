@@ -1,0 +1,122 @@
+/* The switch - the box around the slider */
+.switch {
+    position: absolute;
+    display: inline-block;
+    width: 52px;
+    height: 26px;
+    top:10px;
+    right: 15px; 
+  }
+
+  /* Hide default HTML checkbox */
+  .switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
+  
+  /* The slider */
+  .slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #6a1b9a;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  .slider:before {
+    position: absolute;
+    content: "";
+    height: 18px;
+    width: 18px;
+    left: 4px;
+    bottom: 4px;
+    background-color: rgb(255, 255, 255);
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  .slider::after{
+    content: "Off";
+    position: absolute;
+    color: #ffffff;
+    right: 6px;
+    bottom: 4px;
+}
+  input:checked + .slider {
+    background-color: #ffffff;
+  }
+  
+  input:focus + .slider {
+    box-shadow: 0 0 1px #2196F3;
+  }
+  
+  input:checked + .slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+    background-color: #6a1b9a;
+
+  }
+  input:checked+.slider::after {
+    content: "On";
+    color: #6a1b9a;
+    position: relative;
+    top: 4px;
+    left: 4px;  
+
+
+}
+  /* Rounded sliders */
+  .slider.round {
+    border-radius: 34px;
+}
+.slider.round:before {
+    border-radius: 50%;
+}
+  /* /////////////////////////////////////////////////////////////////// */
+.switch-toggle {
+  width: 90px;
+  height: 40px;
+  appearance: none;
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRJdlCBMbsrcuWcqincUuCaZW34NVkyXMDKdQ&s"); /*background trước khi nhấn*/
+  background-size: cover;
+  background-position: center;
+  border-radius: 20px;
+  position: relative;
+  box-shadow: #ffffff 0px 0px 20px 0px;
+  cursor: pointer;
+}
+.switch-toggle::before {
+  content: "";
+  position: absolute;
+  width: 34px;
+  height: 34px;
+  background-image:url("./img/9689786.png"); /*background ô mặt trăng*/
+  background-size: cover;
+  background-position: center;
+  border-radius: 50%;
+  top:3px;
+  left: 3px;
+  transition: 0.5s;
+  box-shadow:inset #0f014d 0px 0px 3px 0px;
+}
+.switch-toggle:checked {
+  /*background ô chữ nhật sau nhấn */
+  background-image: url("data:image/jpeg;base64,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");
+  background-size: cover;
+  background-position: center;
+  box-shadow: #000000 0px 0px 10px 0px;
+}
+.switch-toggle:checked::before {
+  left:52px;
+  background: #fff700;
+  background-image: url("https://cdn-icons-png.flaticon.com/128/1146/1146869.png");
+  background-size: cover;
+  background-position: center;
+  box-shadow: #000000 0px 0px 10px 0px;
+}
+

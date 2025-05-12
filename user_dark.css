@@ -9,6 +9,7 @@
     color: #ffffff;
     margin: 0 30%;
     flex-direction:column ;
+    border-radius: 20px;
 }
 .div1 {
     display: flex;
@@ -18,6 +19,7 @@
     background-size: cover;
     background-position: center;
     box-shadow: inset #ffffff 0px 0px 10px 0px;
+    border-radius: 20px;
 }
 .div1_1 {
     box-sizing: border-box;

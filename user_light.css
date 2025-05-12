@@ -15,7 +15,7 @@
     display: flex;
     justify-content: space-between;
     padding: 10px;
-    background-image: url("https://i.pinimg.com/736x/c4/9b/14/c49b149512e117fbb21abaa6fd47fc5e.jpg");
+    background-image: url("./img/light.jpg");
     background-size: cover;
     background-position: center;
     box-shadow: inset #000000 0px 0px 10px 0px;

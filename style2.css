@@ -4,16 +4,16 @@
 .devices{
     display: flex;
     flex-wrap: wrap;
-
 }
 .dev {
     flex: 33%;
     margin-right: 15px;
     margin-bottom: 15px;
-    background-color:rgb(252, 249, 255);
+    background-color:rgb(255, 255, 255);
     border-radius: 20px; 
     padding:10px 10px 10px 10px;
     position: relative;
+    box-shadow: #000000 0px 0px 5px 0px;
 }
 .container{
     margin: 0 30%;
@@ -43,6 +43,8 @@ p{
   font-size: 24px;
   font-family:'Times New Roman', Times, serif;
   padding: 20px;
+  box-shadow:inset #000000 0px 0px 10px 0px;
+  border-radius: 20px;
 
 }
 .div5_1:hover, .div5_2:hover, .div5_3:hover, .div5_4:hover{

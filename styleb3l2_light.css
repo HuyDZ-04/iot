@@ -15,7 +15,7 @@
     display: flex;
     justify-content: space-between;
     padding: 10px;
-    background-image: url("https://i.pinimg.com/736x/c4/9b/14/c49b149512e117fbb21abaa6fd47fc5e.jpg");
+    background-image: url("./img/light.jpg");
     background-size: cover;
     background-position: center;
     box-shadow: inset #000000 0px 0px 10px 0px;
@@ -96,6 +96,7 @@
     box-sizing: border-box;
     max-height: 550px;
     overflow-y: auto;
+    scrollbar-width: none ;
 }
 
 a{
@@ -149,7 +150,7 @@ a{
     color: #fff;
     box-shadow: #000000 0px 0px 10px 0px;
     padding: 20px;
-    border-radius: 20px;
+    border-radius: 20px;    
     font-size: 24px;
     font-family:'Times New Roman', Times, serif;
 }

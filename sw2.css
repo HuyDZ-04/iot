@@ -28,7 +28,7 @@
     transition: .4s;
   }
   
-  .slider:before {
+  .slider::before {
     position: absolute;
     content: "";
     height: 18px;

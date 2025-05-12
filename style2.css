@@ -26,7 +26,7 @@ p{
   font-family: arial;
 }
 .dev:has(input:checked) {
-  background-color: #6a1b9a;
+  background-color: #14081c;
   color: white;
 }
 .div5{
